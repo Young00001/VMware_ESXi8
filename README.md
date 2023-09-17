@@ -8,7 +8,9 @@ With this configuration you will be able to use this configured server for the f
 - **Remote File Transfer**
 - **and Much More!**
 ***
+### ESXi 8.0 [Hardware Requirements](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-DEB8086A-306B-4239-BF76-E354679202FC.html)
 
+***
 ## Installation
 
 1. Download the [VMware vSphere Hypervisor (ESXi) Image](https://customerconnect.vmware.com/evalcenter?p=vsphere-eval-8)
