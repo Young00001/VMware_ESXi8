@@ -17,13 +17,28 @@ With this configuration you will be able to use this configured server for the f
 
 2. Format a **Bootable** Device (USB, CD, etc.)
    
-#### _WINDOWS_
+#### WINDOWS
 
    - [RUFUS](https://rufus.ie/en/)
   
 
-#### _LINUX_
+#### LINUX
 
    - [Fedora Media Writer](https://developers.redhat.com/blog/2016/04/26/fedora-media-writer-the-fastest-way-to-create-live-usb-boot-media)
    - [Etcher](https://etcher.balena.io/)
+
+#### _Linux Terminal_
+   1. **Open a terminal**
+   2. **Identify the USB Drive:** Use the `lsblk` command to identify the device name of your USB drive
+```
+lsblk
+```
+   3. **Create the Bootable USB Drive Using `dd`:** Replace /path/to/esxi.iso with the actual path to your VMware ESXi ISO file and /dev/sdX with the device name of your USB drive:
+```
+sudo dd if=/path/to/esxi.iso of=/dev/sdX bs=4M status=progress
+```
+4. **Eject the USB drive:** After the process is complete, you can safely eject the USB drive:
+```
+sudo eject /dev/sdX
+```
   ***
