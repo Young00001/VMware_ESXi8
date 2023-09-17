@@ -2,7 +2,7 @@
 
 In this repository I will be guiding you through the **Installation** and **Configuration** process for **VMware ESXi VSphere8**
 
-With this configuration you will be able to use this configured server for the following:
+With this guide you will be able to use this configured server for the following:
 
 - **Remote Client Sessions**
 - **Remote File Transfer**
