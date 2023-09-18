@@ -45,7 +45,7 @@ sudo eject /dev/sdX
 ### Configuring the BIOS [Boot Settings](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-1298D6CC-B7B4-41EE-8F7E-98C58404F133.html)
 ***
 ## Installation
-Begin the ESXi 8
+Begin the ESXi 8 Installation
 ```
 (Enter) Continue
 ```
