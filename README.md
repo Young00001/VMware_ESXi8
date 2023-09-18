@@ -11,7 +11,7 @@ With this guide you will be able to use this configured server for the following
 ### ESXi 8.0 [Hardware Requirements](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-DEB8086A-306B-4239-BF76-E354679202FC.html)
 
 ***
-## Installation
+## Pre-Installation
 
 1. Download the [VMware vSphere Hypervisor (ESXi) Image](https://customerconnect.vmware.com/evalcenter?p=vsphere-eval-8)
 
@@ -41,4 +41,32 @@ sudo dd if=/path/to/esxi.iso of=/dev/sdX bs=4M status=progress
 ```
 sudo eject /dev/sdX
 ```
-  ***
+***
+### Configuring the BIOS [Boot Settings](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-1298D6CC-B7B4-41EE-8F7E-98C58404F133.html)
+***
+## Installation
+Begin the ESXi 8
+```
+(Enter) Continue
+```
+Accept the End User License Agreement (EULA)
+```
+(F11) Accept and Continue
+```
+VMware ESXi will now scan your device for available **Storage Devices**
+```
+Select Your Storage Device
+```
+Select Keyboard Layout
+```
+(Enter) Continue
+```
+Enter a Root Password
+```
+(Enter) Continue
+```
+Confirm Install
+```
+(F11) Install
+```
+***
