@@ -8,8 +8,9 @@ With this guide you will be able to use this configured server for the following
 - **Remote File Transfer**
 - **and Much More!**
 ***
+### Please Check the [VMware ESXi Compatability Guide](https://www.vmware.com/resources/compatibility/search.php) to Confirm Compatability with your System
+***
 ### ESXi 8.0 [Hardware Requirements](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-DEB8086A-306B-4239-BF76-E354679202FC.html)
-
 ***
 ## Pre-Installation
 
