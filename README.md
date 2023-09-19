@@ -46,28 +46,41 @@ sudo eject /dev/sdX
 ### Configuring the BIOS [Boot Settings](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-installation/GUID-1298D6CC-B7B4-41EE-8F7E-98C58404F133.html)
 ***
 ## Installation
-Begin the ESXi 8 Installation
+Begin the ESXi 8 Installation  
+<img src="Images/Step_1.webp" alt="Step 1 Image" width="600" height="400">
 ```
 (Enter) Continue
 ```
-Accept the End User License Agreement (EULA)
+***
+Accept the End User License Agreement (EULA)  
+<img src="Images/Step_2.webp" alt="Step 2 Image" width="600" height="400">
 ```
 (F11) Accept and Continue
 ```
-VMware ESXi will now scan your device for available **Storage Devices**
+***
+VMware ESXi will now scan your device for available **Storage Devices**  
+<img src="Images/Step_3.png" alt="Step 3 Image" width="700" height="500">
 ```
 Select Your Storage Device
 ```
-Select Keyboard Layout
+***
+Select Keyboard Layout  
+<img src="Images/Step_4.webp" alt="Step 4 Image" width="600" height="400">
 ```
 (Enter) Continue
 ```
-Enter a Root Password
+***
+Enter a Root Password  
+<img src="Images/Step_5.webp" alt="Step 5 Image" width="600" height="400">
 ```
 (Enter) Continue
 ```
-Confirm Install
+***
+Confirm Install  
+<img src="Images/Step_6.png" alt="Step 6 Image" width="600" height="400">
 ```
 (F11) Install
 ```
 ***
+Reboot Your System  
+<img src="Images/Last_Step.webp" alt="Step 7 Image" width="600" height="400">
