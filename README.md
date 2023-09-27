@@ -2,11 +2,13 @@
 
 In this repository I will be guiding you through the **Installation** and **Configuration** process for **VMware ESXi VSphere8**
 
-With this guide you will be able to use this configured server for the following:
+With this guide you will be able to:
 
-- **Remote Client Sessions**
-- **Remote File Transfer**
-- **and Much More!**
+- Download VMware ESXi8 image
+- Check ISO image Compatability & Requirements
+- Create Bootable Media for ISO image
+- Install VMware ESXi8 image on a Host Machine
+
 ***
 ## Pre-Installation
 
