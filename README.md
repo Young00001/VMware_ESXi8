@@ -4,10 +4,10 @@ In this repository I will be guiding you through the **Installation** and **Conf
 
 With this guide you will be able to:
 
-- Download VMware ESXi8 image
-- Check ISO image Compatability & Requirements
-- Create Bootable Media for ISO image
-- Modify Required Bios/UEFI Settings
+- Download VMware ESXi8 image<br>
+- Check ISO image Compatability & Requirements<br>
+- Create Bootable Media for ISO image<br>
+- Modify Required Bios/UEFI Settings<br>
 - Install VMware ESXi8 image on a Host Machine
 
 ***
